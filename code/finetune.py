@@ -61,9 +61,14 @@ def train_model(tr_loader, val_loader, args):
     device = args.device
     model_name = args.model_name
 
-    config = AutoConfig.from_pretrained(model_name, num_labels=2, hidden_dropout_prob=args.drop_prob,
-                                        classifier_dropout=args.drop_prob, attention_probs_dropout_prob=args.drop_prob)
-    model = AutoModelForSequenceClassification.from_pretrained(model_name, config=config).to(device)
+    # if there is a model stored locally, continue training it
+    if args.if_local == True:
+        model_path = '/models/' + model_name.split('/')[-1] + '_model.pth'
+        model = torch.load(model_path).to(device)
+    else:
+        config = AutoConfig.from_pretrained(model_name, num_labels=2, hidden_dropout_prob=args.drop_prob,
+                                            classifier_dropout=args.drop_prob, attention_probs_dropout_prob=args.drop_prob)
+        model = AutoModelForSequenceClassification.from_pretrained(model_name, config=config).to(device)
     optimizer = AdamW(model.parameters(), lr=2e-5, weight_decay=args.weight_decay)
     scheduler = LinearLR(optimizer, start_factor=1, end_factor=0.8, total_iters=10)
 
@@ -76,13 +81,14 @@ def train_model(tr_loader, val_loader, args):
         print(f"[{epoch + 1:03d}/{args.epochs:03d}] Train loss: {train_loss:.6f} | Val loss: {val_loss:.6f} "
               f"Acc: {accuracy:.6f} Precision: {scores[0]:.6f} Recall: {scores[1]:.6f}")
         if accuracy > best_acc:
-            torch.save(model, model_name.split('/')[-1] + '_model.pth')
+            torch.save(model, '/models/' + model_name.split('/')[-1] + '_model.pth')
             print(f"Best model saved(accuracy: {accuracy})")
             best_acc = accuracy
 
 def set_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--device', default='cpu', type=str, help='train on which devices(s)')
+    parser.add_argument('--if_local', default=False, type=bool, help='whether to use local model')
     parser.add_argument('--model_name', default='bert-base-chinese', type=str, help='use which pre-trained model')
     parser.add_argument('--epochs', default=10, type=int, help='epoch number')
     parser.add_argument('--batch_size', default=32, type=int, help='batch size')
