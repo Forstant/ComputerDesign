@@ -1,1 +1,9 @@
 # ComputerDesign
+* README.md
+* /code
+  * /dataloader.py
+  * /finetune.py
+  * /prediction.py
+  * /test.ipynb
+  * /utils.py
+* /data
