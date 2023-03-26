@@ -1,0 +1,159 @@
+评论,时间,点赞数,标签
+"吴老师好厉害，必须三连，纯小白都能跟得上[喜极而泣]
+啥时候更新啊啊啊[灵魂出窍]",2020-05-22 08:54:18,8,0
+一年了还没更完吗[藏狐],2021-07-23 02:26:19,7,0
+"怎么实现无限循环啊我只能搞6次、import random
+computer=random.randint(10,30)
+for i in range(3):
+      age = int(input('请输入年龄'))
+      if age==computer:
+        print('你猜对了，你赢了')
+        break
+else: print('您是否想继续玩游戏')
+answer=(input('请回答:【Y:yes N：no】'))
+if answer=='Y':
+     for i in range(3):
+      age = int(input('请输入年龄'))
+     if age==computer:
+      print('你猜对了，你赢了')
+else:
+    print('游戏结束')",2021-03-10 08:57:17,7,0
+这个还会更新么,2021-01-14 10:50:32,7,0
+学习只为自己谋一条出路，不至于天天打螺丝,2021-12-09 11:15:09,8,0
+"关于112节课的argv我的理解，以及让我大悟的应用，分享给大家：
+1.首先，argv是实现python和外部交互的函数。我们之前学过的input函数，是键盘输入的信息传递给python，那么agrv就是终端输入的信息传递给python。其次，通过argv，终端传递给python的数据是一个列表，里面的的数据类型为字符串，在py代码中对argv进行进行切片操作即可获取你想获取的数据。
+1.agrv【0】就是当前.py文集路径，是默认的
+2.agrv【1:】是我们可以通过终端输入并改变的
+3.代码案例：
+import sys
+def fun(n):
+	if type(n) != int:
+		print('请输入整数')
+		return
+	result = 0
+	for i in range(1, n+1):
+		result += i
+	print('1+2+...+{}={}'.format(n,result))
+n = sys.argv【1】
+fun(int(n))
+4.对于上述3的代码，我们命名为x.py，打开终端，通过终端运行这个文件：终端中输入 python x.py + 数字，即可输出结果。例如我们想计算n=10时的结果，就在终端中输入 python x.py 10 按回车键，终端中返回信息如下：1+2+...+10=55",2021-01-24 03:28:26,6,0
+老师这个课程还在更新吗？,2020-11-26 14:54:02,6,0
+电脑死活打不开pycharm，没办法了啊,2020-09-22 14:17:16,6,0
+老师讲得很好，谢谢吴老师！,2020-05-05 06:30:41,6,0
+每天都会发吗,2020-04-17 13:10:54,6,0
+暑假在家，每日打卡！路过的uu踢我一脚！,2022-07-13 09:31:37,20,0
+"说一下pycharm用社区版本（free）免费版的够用，等你真正学的很好了，在找PO解的不迟。
+官方的pycharm设置方法，file-Seetings-弹窗内-plugins-markerplace- type/too see options（在这个框输入chinese） 弹窗出来的第一个就是中文简体了点击Install-accept-ok 重启就可以啦~··[呲牙]大家一起加油。坚持！",2020-08-31 13:58:49,17,0
+一个赞，学习10分钟[高考加油],2022-07-12 02:13:04,54,0
+"从第一集看到了，143集，快结束了
+啊么，啊么，原来我也会偷偷努力",2022-06-14 04:11:33,10,0
+你已经因为高考失利不能去向往的大学了，难道还要因为这个暑假没学好Python，导致开学成绩不能靠前而后悔吗，好好学叭，不要给自己留遗憾！！！,2022-08-05 13:37:17,9,0
+"day10 飞机按键控制优化，实现长按按键连续移动
+def keyControl(airplane_obj):
+    event_list = pygame.event.get()
+
+    for event in event_list:
+        key_pressed = pygame.key.get_pressed()
+
+        if event.type == QUIT:
+            print('退出')
+            exit()
+        elif key_pressed:
+
+            if key_pressed【pygame.K_a】 or key_pressed【pygame.K_LEFT】:
+                print(""左移"")
+                airplane_obj.moveLeft()
+            elif key_pressed【pygame.K_d】 or key_pressed【pygame.K_RIGHT】:
+                print(""右移"")
+                airplane_obj.moveRight()
+
+            if key_pressed【pygame.K_w】 or key_pressed【pygame.K_UP】:
+                print(""上移"")
+                airplane_obj.moveUp()
+            elif key_pressed【pygame.K_s】 or key_pressed【pygame.K_DOWN】:
+                print(""下移"")
+                airplane_obj.moveDown()
+
+            if key_pressed【pygame.K_SPACE】:
+                print(""攻击"")
+                airplane_obj.attack()",2021-01-28 19:10:47,7,0
+"print(""哈哈，猜年龄小游戏"")
+time=0
+while time<=3:
+    for i in range(3):
+        age = int(input(""猜猜我多大了？:""))
+        if age==13:
+            print(""哈哈哈，看我多年轻啊"")
+            print(""已为您退出"")
+            exit()
+            break
+            pass
+        time+=1
+    else:
+        print(""你已经输错三次啦，如果还要猜请输入y或Y，退出请输入n或N哦"")
+        a=input(""请输入:"")
+        if a=='y' or a=='Y':
+            time=0
+            pass
+        else:
+            a=='n' or a=='N'
+            print('退出啦')
+            exit()
+            pass
+这样也可以",2022-04-21 12:40:32,7,0
+"age=22
+times=1
+while times<=3 :
+    nl=int(input('请输入年龄：'))
+    if nl==age:
+        print('猜对了')
+        break
+        pass
+    else:
+        print('猜错了，再试试')
+        pass
+    times+=1
+    if times==4:
+        a=input('是否继续？:y/n？')
+        if a=='y':
+            times=1
+            pass
+        elif a=='n':
+            print('游戏结束')
+            pass
+        else:
+            print('请按规定输入!')
+            jkl=1
+            while jkl>=1:
+                a = input('是否继续？:y/n?')
+                if a == 'y':
+                    times = 1
+                    break
+                    pass
+                elif a == 'n':
+                    print('游戏结束')
+                    break
+                    pass
+                else:
+                    print('请按规定输入:')
+                    pass
+                jkl+=1",2020-11-13 10:18:32,6,0
+再不更新我可就要追上了[妙啊],2020-05-10 02:12:39,6,0
+"用
+while True:",2021-03-10 09:53:09,1,0
+range3是范围3的意思，i 在 范围3 里,2022-12-03 22:40:01,0,0
+"q=1
+whlie q ＜2:",2022-12-03 22:38:20,0,0
+同问,2021-02-21 12:56:45,0,0
+百度,2020-09-23 13:03:11,0,0
+7.23,2022-07-23 09:54:24,2,0
+回复 @又一来了 :今天你学了吗[doge],2022-08-04 04:59:06,1,0
+7.25,2022-07-25 13:40:06,1,0
+chinesepinyin是干啥的,2020-08-31 16:19:36,1,0
+回复 @刘炳权 : 插件,2022-12-24 02:05:26,0,0
+助力每一个梦想,2022-07-12 08:06:26,1,0
+回复 @努力学习干巴咯 :其实这个不是我的初次入门，我开始接触python是我自己买书来学，学到后边书的内容优点老，不适用就来b站上找，然后就接触到博主的视频，他讲的还是很好的，会教你安装各种软件,2022-06-16 00:25:08,2,0
+太强了,2022-06-15 02:14:56,1,0
+我看懂了代码那岂不是就知道了答案[doge],2022-04-21 14:45:57,1,0
+搜索不到 隔断时间再搜索 多搜索几次,2023-01-16 01:04:09,6,0
+搜索不到 隔断时间再搜索 多搜索几次,2023-01-16 01:04:09,6,0

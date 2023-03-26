@@ -1,0 +1,106 @@
+评论,时间,点赞数,标签
+大佬，下了你的webui，双击批处理报错缺失api-ms-win-core-path-l1-1-0.dll ，重装c+2015和Phthon都无效，直接安装api-ms-win-core-path-l1-1-0.dll ，直接无法启动，于是查了很久的资料，最后我看到大佬的版本是310，家里电脑因为是win7，支持的版本是3.8，是否可能是版本不兼容的问题，大佬可否发个python 3.8的重新编译版，感激,2022-11-06 18:22:37,25,0
+他真的 我哭死[脱单doge],2022-11-03 03:53:09,13,0
+为什么开启的时候要下载一个1.59G的东西呢 ？？？有人和我一样的情况吗,2022-11-03 05:30:44,23,0
+谢谢你，电子佛祖[保佑],2022-11-03 04:39:39,15,0
+"正在使用如下参数启动webui: --deepdanbooru --xformers
+Traceback (most recent call last):
+  File ""C:\Users\92354\Desktop\good things\novelai-webui一键包\novelai-webui-aki\run.py"", line 6, in <module>
+    import webui
+  File ""C:\Users\92354\Desktop\good things\novelai-webui一键包\novelai-webui-aki\webui.py"", line 11, in <module>
+    from modules.paths import script_path
+  File ""C:\Users\92354\Desktop\good things\novelai-webui一键包\novelai-webui-aki\modules\paths.py"", line 4, in <module>
+    import modules.safe
+  File ""C:\Users\92354\Desktop\good things\novelai-webui一键包\novelai-webui-aki\modules\safe.py"", line 9, in <module>
+    import torch
+  File ""C:\Users\92354\Desktop\good things\novelai-webui一键包\novelai-webui-aki\py310\lib\site-packages\torch\__init__.py"", line 140, in <module>
+    raise err
+OSError: 【WinError 126】 找不到指定的模块。 Error loading ""C:\Users\92354\Desktop\good things\novelai-webui一键包\novelai-webui-aki\py310\lib\site-packages\torch\lib\cusolver64_11.dll"" or one of its dependencies.
+请按任意键继续. . .",2022-11-06 09:49:56,21,0
+"能不能救救孩子
+正在使用如下参数启动webui: --deepdanbooru --xformersAssertionError: Couldn't find Stable Diffusion in any of: ['C:\\Users\\86136\\Desktop\\ai\\repositories/stable-diffusion-stability-ai', '.', 'C:\\Users\\86136\\Desktop']
+请按任意键继续. . .",2022-11-28 07:55:00,10,0
+"更新了一下，提示：ERROR: Cannot find command 'git' - do you have 'git' installed and in your PATH?
+这个咋整，更新前是好的",2022-11-27 05:34:40,10,0
+启动脚本都打不开哎[委屈],2022-11-26 14:18:11,21,0
+安装第一步的YAML文件怎么打开啊,2023-02-26 06:48:00,19,0
+提取码：r3f7,2022-11-27 13:24:00,46,0
+RuntimeError: Found no NVIDIA driver on your system怎么搞[无语],2022-11-06 08:44:28,9,0
+A卡与狗不得入内,2022-11-04 23:44:27,9,0
+"Commit hash: <none>
+Traceback (most recent call last):
+  File ""F:\novelai-webui一键包\novelai-webui-aki-v2\launch.py"", line 250, in <module>
+    prepare_enviroment()
+  File ""F:\novelai-webui一键包\novelai-webui-aki-v2\launch.py"", line 199, in prepare_enviroment
+    git_clone(stable_diffusion_repo, repo_dir('stable-diffusion'), ""Stable Diffusion"", stable_diffusion_commit_hash)
+  File ""F:\novelai-webui一键包\novelai-webui-aki-v2\launch.py"", line 77, in git_clone
+    current_hash = run(f'""{git}"" -C {dir} rev-parse HEAD', None, f""Couldn't determine {name}'s hash: {commithash}"").strip()
+  File ""F:\novelai-webui一键包\novelai-webui-aki-v2\launch.py"", line 34, in run
+    raise RuntimeError(message)",2022-11-29 11:37:10,9,0
+"我教你们，发sdv3给up主，然后他发给你提取码,你得在百度网盘应用里上打开他的链接才能用，不要直接在网页上打开，不然就会显示提取码错误，我是在手机上复制链接在浏览器打开，然后它会让你转到应用里打开，然后再输入提取码就对了，压缩包是9.99G",2023-03-04 05:39:31,11,0
+更新完汉化没了的看这里【【AI绘画】webui更新后，汉化消失了怎么办-哔哩哔哩】 https://b23.tv/UZJ4ubd,2022-11-08 13:08:50,18,0
+昨天好好的，今天提示do you have 'git' installed and in your Path怎么回事,2022-12-03 19:51:59,8,0
+更新完之后出现ERROR: Cannot find command 'git' - do you have 'git' installed and in your PATH? 怎么解决呢,2022-11-27 04:52:12,18,0
+教大家一个快速下载方法，要花一块钱。去闲鱼搜网盘，找百度网盘会员1块钱的，他会用企业链接帮你下载，速度取决于你的宽带，我40m+/s三两下下载完了,2022-11-11 17:04:59,18,0
+为啥我生成出来只能是纯黑色图,2022-11-06 05:33:10,8,0
+这个的密码是r3f7,2022-12-06 07:39:32,10,0
+我和你是一样的经历[捂脸],2022-11-17 09:18:16,0,0
+找到办法了，解压后的文件里有个“B使用教程＋常见问题”，打开后打开常见安装问题那个链接，然后在SD-WebUI方案里，往下翻，最下边，有这个问题的解决方法[doge],2022-12-01 09:43:22,1,0
+"回复 @六斤鬱 : 谢谢，我也在Win7 64位的笔记本上操作碰到这个问题，看到了解决方法。常见安装问题: https://guide.novelai.dev/s/troubleshooting/install  api-ms-win-core-path-l1-1-0.dll is missing#
+Windows 7 上运行很可能会报错: api-ms-win-core-path-l1-1-0.dll is missing，这是因为许多程序需要新版本的 Windows 的系统文件。
+
+如果没有出现该错误，不需要执行下面的操作。
+
+这些文件已经被移植来与 Windows 7 兼容，并且可以在 这里 https://github.com/nalexandru/api-ms-win-core-path-HACK/releases/download/0.3.1/api-ms-win-core-path-blender-0.3.1.zip 下载。它的 GitHub 页面
+https://github.com/nalexandru/api-ms-win-core-path-HACK/
+解压缩并将 x86.dll 复制到 C:\Windows\SysWOW64 ，将 x64.dll 复制到 C:\Windows\System32 并重启。",2022-12-05 14:41:14,2,0
+它下在c盘，我c盘剩的空间怕是不够它下的[喜极而泣],2022-11-03 06:29:37,3,0
+必须的，搭建环境,2022-11-03 08:40:18,1,0
+回复 @我早就睡了哦 :大大 请问一下这个一键包怎么彻底卸载干净啊,2022-11-05 12:48:23,0,0
+我也是,2022-11-10 15:10:34,2,0
+回复 @慕海之眠 :是不是拿pandowbload下的,2022-11-16 06:14:15,0,0
+在这两个路径下找不到stable diffusion这个文件夹，但是这个文件夹好像在models里的,2022-11-28 16:00:10,0,0
+我也是更新完之后这样[难过],2022-12-03 04:26:45,1,0
+看up主置顶里的链接，在链接里面找v4修复并下载到整合包文件夹里,2022-11-27 08:26:49,4,0
+插个眼,2022-11-27 08:27:14,0,0
+插眼,2022-11-29 05:52:13,0,0
+同问,2023-03-01 16:44:15,2,0
+我也是 请问解决了吗？,2023-03-08 13:56:37,0,0
+打开系统命令行，用cd指令切换到你webui-aki文件夹的路径上，然后照着视频36s里的第一行打就行；cd指令不会的话百度一下就会了,2023-03-15 16:42:39,0,0
+谢谢你！,2022-11-28 02:54:34,1,0
+感谢大哥[保佑],2022-11-29 04:41:21,1,0
+谢谢大哥,2022-11-29 12:57:33,0,0
+哥们，我和你一样情况，怎么样了。,2022-11-10 04:05:59,0,0
+同，怎么回事啊,2022-11-11 13:09:38,0,0
+回复 @于其易 : 没有英伟达显卡,2022-11-12 11:19:11,0,0
+有可以用的版本，自己搜下,2022-11-06 09:03:32,0,0
+看顶置,2022-11-30 05:06:10,1,0
+回复 @1697qa :没解决[大哭],2022-12-03 10:28:20,0,0
+解决了吗我也卡这里了[脱单doge],2022-12-02 18:15:01,0,0
+有个问题，我下载的9.9g里没有up的的点击启动bat的文件啊[喜极而泣],2023-03-05 14:26:45,2,0
+回复 @唐小迁 :谢谢大佬，好人一生平安！感谢！,2023-03-07 04:46:23,0,0
+回复 @Remilia-Scarlet :视频简介就有,2023-03-05 11:42:08,0,0
+"更新了一下，提示：ERROR: Cannot find command 'git' - do you have 'git' installed and in your PATH?
+这个咋整，更新前是好的",2022-11-27 05:38:03,1,0
+"更新了一下，提示： ERROR : Cannot find command ' git '- do you have ' git ' installed and in your PATH ?
+这个咋整，更新前是好的",2022-11-27 08:29:38,0,0
+你是我滴神,2022-11-17 10:52:09,0,0
+我也,2022-12-05 13:44:21,0,0
+重装之后可以用了，但是不敢更新,2022-12-06 02:52:42,0,0
+环境变量,2023-02-10 16:45:18,0,0
+一样,2022-11-27 12:52:54,1,0
+看up主置顶里的链接，在链接里面找v4修复并下载到整合包文件夹里,2022-11-27 13:43:31,1,0
+回复 @5月你的谎言_ : 我弄好了，你试试？,2022-11-27 13:44:10,1,0
+想问问好心人，网盘的下载链接是在哪里找到的呀，为什么我找了一晚上都找不到链接[大哭]生为笨蛋真的很emo,2022-11-18 21:00:01,0,0
+回复 @画画的X7X :简介啊,2022-11-19 02:31:23,1,0
+百度挂十分钟游戏送五分钟会员，迅雷的送一天,2023-03-06 15:32:34,0,0
+俺也一样,2022-11-07 01:02:57,0,0
+回复 @酱_香饼 :解决了，生成启动脚步的那里选上3,2022-11-07 14:18:58,0,0
+好人,2022-12-06 08:52:26,0,0
+我就知道一定有好心人,2022-12-13 18:54:50,0,0
+up你好，我按照您的操作还是卡在用户协议,2023-02-25 17:26:32,7,0
+作者大大能不能设置一下自动回复啊？我都发了很多遍了就是不回复提取码啊[大哭],2023-03-01 10:56:25,24,0
+回复 @蟹粉生煎包 : 删掉多余标点符号和空格，就只输入括号里的字试试,2023-03-15 13:14:55,1,0
+up你好，我按照您的操作还是卡在用户协议,2023-02-25 17:26:32,7,0
+作者大大能不能设置一下自动回复啊？我都发了很多遍了就是不回复提取码啊[大哭],2023-03-01 10:56:25,24,0
+回复 @蟹粉生煎包 : 删掉多余标点符号和空格，就只输入括号里的字试试,2023-03-15 13:14:55,1,0

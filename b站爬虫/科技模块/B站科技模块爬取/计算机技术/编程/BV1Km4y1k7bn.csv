@@ -1,0 +1,170 @@
+评论,时间,点赞数,标签
+"学习打卡第三天
+对spring boot有了个初步了解:
+SpringBoot是一个微服务框架。Spring Boot是为了简化Spring应用的创建、运行、调试、部署等而出现的，使用它可以做到专注于Spring应用的开发，而无需过多关注XML的配置。",2023-03-23 01:21:38,1,0
+"跟着王妈妈学SpringBoot第3天
+我们可以在 Record 中添加构造方法， 有三种类型的构造方法分别：是紧凑的，规范的和定制构造方法
+ 紧凑型构造方法没有任何参数，甚至没有括号。
+ 规范构造方法是以所有成员作为参数
+step1: 紧凑和定制构造方法
+step2：编译 Student.java -> Student.class",2023-03-23 01:04:11,1,0
+"【跟着王妈妈学SpringBoot第二天】
+一.了解了springboot相关的基础
+特性：
+1. 创建独立的 Spring 应用程序。
+2. 嵌入式 Tomcat、 Jetty、 Undertow 容器（jar）
+3. 提供的 starters 简化构建配置（简化依赖管理和版本控制）
+4. 尽可能自动配置 spring 应用和第三方库
+5. 提供生产指标,例如指标、健壮检查和外部化配置
+6. 没有代码生成，无需 XML 配置
+
+二.使用idea创建springboot项目",2023-03-25 15:27:53,0,0
+"学习打卡第2天
+学习内容：
+①java Record 是一种特殊的Java类，可用来创建不可变类，语法简短。构造方法，一共四个属性，是只读的。
+②switch语法支持箭头表达式，可以写一些代码、支持record类型
+   例如：switch()
+                     case1->express;
+                     case2->express;
+                     casen->express;
+             default->
+             throw new Expcetion",2023-03-22 06:20:12,1,0
+"【跟着王妈妈学SpringBoot+第6天】
+Spring 6以及Spring Boot 3已经发布了多个里程碑，在闲暇时间可以抽出一些时间去尝试一下，体验新的特性和变化，评估你应用升级的难度。
+首先老杜得spring6 应该是最详细得，而且配备了很多得详细讲解，有些市面上得spring6  抄书讲，没有任何意义增加时间，却伤害了学习得人，
+给大家肯定得一点  配备得纸质教材，学习做笔记确实方便很多，因为是全部符合视频得大家值得入手。
+springboot3 现阶段发布全网首发完备springboot 3.0  教程，  而且王老师之前讲解得springboot2也是很好得入门课程，这个springboot3  确实很给力狂飙所有不接受反驳
+还看到了不少得图书馆里面有很多与视频配套得教材，怎么能让人不爱。
+学习得要加油在这个卷王时代，保持战斗力",2023-03-26 05:02:02,0,0
+"学习打卡第2天
+JavaRecord 特点
+1.带有全部参数的构造方法
+2.public访问器
+3.toString(),hashCode(),equals()无
+4.set，get方法没有遵循Bean的命名规范
+5.final类，不能继承Record。Record为隐式的final类。",2023-03-22 06:45:39,1,0
+"学习打卡第2天
+打卡内容：boot3新特性包括以下
+1、@HttpExchange声明式客户端
+2、RFC7807
+3、ProblemDetail
+4、预编译AOT
+这些新特性基于jdk17的新特性：
+1、Java record
+2、text block
+3、密闭类
+等…",2023-03-22 06:26:42,1,0
+"跟着王妈妈学SpringBoot第5天
+学习笔记：AOP(Aspect Oriented Programming):面向切面编程，保持原有代码不变，能够给原有的业务逻辑增加二维的
+功能。AOP 增加的功能是开发人员自己编写的，底层是动态代理实现功能的增强。对于扩展功能十分有利。Spring
+的事务功能就是在 AOP 基础上实现的,业务方法在执行前【开启事务】，在执行业务方法，最后【提交或回滚
+失败】。
+主要包括 5 个注解：@Before，@After，@AfterReturning，@AfterThrowing，@Around。注解来自 aspectj 框架。
+@Before：在切点方法之前执行。
+@After：在切点方法之后执行
+@AfterReturning：切点方法返回后执行
+@AfterThrowing：切点方法抛异常执行
+@Around：属于环绕增强，能控制切点执行前，执行后。功能最强的注解。",2023-03-25 06:38:34,0,0
+"学习打卡第2天
+学习内容：
+①java Record 是一种特殊的Java类，可用来创建不可变类，语法简短。构造方法，一共四个属性，是只读的。
+②switch语法支持箭头表达式，可以写一些代码、支持record类型
+   例如：switch()
+                     case1->express;
+                     case2->express;
+                     casen->express;
+             default->
+             throw new Expcetion",2023-03-22 05:45:41,1,0
+"学习打卡第4天
+学习内容：
+1.Spring Boot 是目前流行的微服务框架 倡导 约定优先于配置” 其设 目的是 用来简化新 Spring 应用的初始化搭建以及开发过程。 Spring Boot 提供了很多核心的功 能，比如自动化配置 starter（启动器） 简化 Maven配置、内嵌 Servlet 容器、应用监控等功能
+2.java Record 是一种特殊的Java类，可用来创建不可变类，语法简短。构造方法，一共四个属性，是只读的。
+3.switch语法支持箭头表达式，可以写一些代码、支持record类型
+   例如：switch()
+                     case1->express;
+                     case2->express;
+                     casen->express;
+             default->
+             throw new Expcetion",2023-03-25 15:45:51,0,0
+"跟着王妈妈学SpringBoot第5天：
+今天学习了p16、p17、p18:
+1.学到了swich的扩充的新功能，支持箭头表达式、支持yeild返回值、支持java record。
+2.学到了箭头表达式的使用。
+3.学到了yield的使用。
+4.学到了代码块和yeild的使用。",2023-03-25 13:30:07,0,0
+"day02:学习springboot第二天
+学习内容：
+①java Record 是一种特殊的Java类，可用来创建不可变类，语法简短。构造方法，一共四个属性，是只读的。
+②switch语法支持箭头表达式，可以写一些代码、支持record类型
+   例如：switch()
+                     case1->express;
+                     case2->express;
+                     casen->express;
+             default->
+             throw new Expcetion",2023-03-22 06:35:29,1,0
+"【跟着王妈妈学SpringBoot第5天】
+Switch：支持箭头表达式，支持 yied 返回值，支持 Java Record
+Switch 新的语法，case label -> 表达式|throw 语句|block。yeild 让 switch 作为表达式，能够返回值。case 标签-> 与 case 标签：不能混用。 一个 switch 语句块中使用一种语法格式。
+switch 作为表达式，赋值给变量，需要 yield 或者 case 标签-> 表达式。->右侧表达式为 case 返回值。",2023-03-25 11:18:24,0,0
+"【跟着王妈妈学SpringBoot+第3天】
+ Spring Boot3 新特性
+1）JDK 最小 Java 17,能够支持 17-20.
+2）Spring Boot 3.0 已将所有底层依赖项从 Java EE 迁移到了 Jakarta EE API。
+3）支持 GraalVM 原生镜像。将 Java 应用编译为本机代码，提供显著的内存和启动性能改进。
+4）对第三方库，更新了版本支持。
+5）自动配置文件的修改。
+6）提供新的声明式Http 服务，在接口方法上声明@HttpExchange 获取http 远程访问的能力。代替OpenFeign 7）Spring HTTP 客户端提供基于 Micrometer 的可观察性. 跟踪服务，记录服务运行状态等 
+8）AOT（预先编译） 支持 Ahead Of Time，指运行前编译
+9）Servlet6.0 规范
+10）支持 Jackson 2.14。
+11）Spring MVC :默认情况下使用的 PathPatternParser。删除过时的文件和 FreeMarker 、JSP 支持。",2023-03-25 16:15:18,0,0
+"跟着王妈妈学SpringBoot第6天
+学习笔记：说说 Web 服务
+基于浏览器的 B/S 结构应用十分流行。Spring Boot 非常适合 Web 应用开发。可以使用嵌入式 Tomcat、Jetty、
+Undertow 或 Netty 创建一个自包含的 HTTP 服务器。一个 Spring Boot 的 Web 应用能够自己独立运行，不依赖需
+要安装的 Tomcat，Jetty 等。
+Spring Boot 可以创建两种类型的 Web 应用
+ 基于 Servlet 体系的 Spring Web MVC 应用
+ 使用 spring-boot-starter-webflux 模块来构建响应式，非阻塞的 Web 应用程序
+Spring WebFlux 是单独一个体系的内容，其他课程来说。 当前文档讲解 Spring Web MVC。又被称为“Spring
+MVC”。Spring MVC 是“model view controller”的框架。专注 web 应用开发。我们快速的创建控制器（Controller），
+接受来自浏览器或其他客户端的请求。并将业务代码的处理结果返回给请求方",2023-03-26 01:47:41,0,0
+打卡学习第一天,2023-03-23 00:55:47,1,0
+"【跟着王妈妈学SpringBoot第5天】
+	Record就是一个数据的载体，一种快捷方式
+	Record可以在IDEA中直接创建，它有一个类型，就是Record类型；	它就是一个数据的载体，用于存储数据的，我们可以把需要用到的数据放到Record中，进而可以把这个Record传递给Service，某个方法，或者DAO等	因为Record是JDK14中的一个新特性，也就是说项目中JDK的级别必须时14以上才行新建class，选择Record，提供一个多参的构造方法，构造方法中的参数，就是Record对象的属性创Record对象的方式和创建普通java类对象一样 通过公共访问器，public访问器，只读，不能改；Record类型并没有遵循javabean的命名规范，没有提供公共的set，get方法通过构造方法来创建Record对象，因为没有提供set方法，所以Record对象中的属性值都是固定的不能修改的。",2023-03-24 23:03:01,0,0
+"【跟着王妈妈学SpringBoot第4天】
+Record 实现接口：Java Record 可以与普通类一样实现接口，重写接口的方法。
+Local Record：可以作为局部对象使用。
+嵌套 Record：多个 Record 可以组合定义， 一个 Record 能够包含其他的 Record。
+instanceof 判断 Record 类型：instanceof 能够与 Java Record 一起使用。编译器知道记录组件的确切数量和类型",2023-03-25 15:24:57,0,0
+"【跟着王妈妈学SpringBoot第五天】
+一、var（var 标识符声明具有非空初始化式的局部变量，这可以帮助您编写简洁的代码，消除冗余信息使代码更具可读性。）
+其特点：
+1. var 是一个保留字，不是关键字（可以声明 var 为变量名）
+2. 方法内声明的局部变量，必须有初值
+3. 每次声明一个变量，不可复合声明多个变量。 var s1=""Hello"", age=20; //Error
+4. var 动态类型是编译器根据变量所赋的值来推断类型
+5.  var 代替显示类型，代码简洁，减少不必要的排版，混乱。
+
+二、sealed（密封）
+1. Sealed Classes 主要特点是限制继承
+2.  Sealed Classes 限制无限的扩张。
+3.  Java中已有限制继承的的设计：final关键字  private私有的
+4.  sealed 作为关键字可在 class 和 interface 上使用，结合 permits 关键字。定义限制继承的密封类
+5. 被sealed修饰的类的子类有三种声明方式： final 终结，依然是密封的；sealed 子类是密封类，需要子类实现；non-sealed 非密封类，扩展使用，不受限。
+6. 被sealed修饰的接口的实现类用final修饰",2023-03-26 04:56:12,0,0
+"跟着王妈妈学SpringBoot 第5天
+Spring Boot的开发原则是“约定大于配置”，在默认配置不能满足需要时，用户可以自定义配置。自定义配置时，可以使用传统的XML配置文件，可以自定义配置文件或自定义配置类，推荐使用配置类的方式。在某公司资产管理系统中，主要对拦截器、MyBatis、Swagger、个性化定制等进行配置。
+对自定义配置文件，可以使用@PropertySource注解指定位置和名称，若项目中有XML文件需要加载到程序中，也可以使用@ImportResource注解加载配置文件； 使用@Configuration注解定义一个配置类，@Configuration注解会结合@Bean注解，配置Bean对象。
+自定义配置类-@Configuration：
+在Spring Boot框架中，通常使用@Configuration注解定义一个配置类，Spring Boot会自动扫描和识别配置类，从而替换传统Spring框架中的XML配置文件，@Configuration注解一般作用在类、接口上。
+一般在配置类中的方法上使用@Bean注解进行组件配置，方法的返回对象注入到Spring容器中，表示当前方法的返回值是一个Bean。",2023-03-25 01:43:13,0,0
+回复 @课无语龙门架 :加油加油,2023-03-23 01:32:24,0,0
+回复 @宇宇qwer :加油加油,2023-03-23 01:34:16,0,0
+回复 @追往星空的路 :冲冲冲,2023-03-22 07:26:43,0,0
+回复 @似水流年yo :打卡有固定的标题格式哦~,2023-03-22 07:24:38,0,0
+回复 @她说她今晚很冷 :加油加油,2023-03-22 07:26:36,0,0
+回复 @动力节点 : .......照搬？,2023-03-23 03:39:08,0,0
+回复 @学习Java使我快乐 :加油加油,2023-03-22 07:29:02,0,0
+回复 @睿睿小跟班yeah :加油加油,2023-03-22 07:26:23,0,0
